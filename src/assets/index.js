@@ -30,6 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import generate_baju_threejs from "./generate_baju_threejs.png";
+import travel_advisor from "./travel_advisor.png";
+import cryptoverse from "./cryptoverse.png";
+import dalle_clone from "./dalle_clone.png";
+
 export {
   logo,
   backend,
@@ -59,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  generate_baju_threejs,
+  travel_advisor,
+  cryptoverse,
+  dalle_clone,
 };

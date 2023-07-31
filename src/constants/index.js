@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  generate_baju_threejs,
+  travel_advisor,
+  cryptoverse,
+  dalle_clone,
 } from "../assets";
 
 export const navLinks = [
@@ -175,37 +179,37 @@ const experiences = [
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+  //   name: "Sara Lee",
+  //   designation: "CFO",
+  //   company: "Acme Co",
+  //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //   name: "Chris Brown",
+  //   designation: "COO",
+  //   company: "DEF Corp",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Generate Design 3D Print",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to edit and make their own design in 3D Model",
     tags: [
       {
         name: "react",
@@ -219,14 +223,22 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: generate_baju_threejs,
+    source_code_link: "https://github.com/NoveLabs/threejs-generate-baju",
   },
   {
-    name: "Job IT",
+    name: "Travel Advisor API",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web that enables users to search for nearest destination restaurant and can watch the review frm the restaurant",
     tags: [
       {
         name: "react",
@@ -237,33 +249,58 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "material-ui",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: travel_advisor,
+    source_code_link: "https://github.com/NoveLabs/travel_advisor_api",
   },
   {
-    name: "Trip Guide",
+    name: "Crypto App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web that enables user to watch Cryptocurrencies data sorting and know the data ",
     tags: [
       {
-        name: "nextjs",
+        name: "crypto",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "react",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cryptoverse,
+    source_code_link: "https://github.com/NoveLabs/crytp_app_api",
+  },
+  {
+    name: "Dall E Clone",
+    description:
+      "Web that enables user generate image and share prompt that used to generate the image in community",
+    tags: [
+      {
+        name: "dall-e",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: dalle_clone,
+    source_code_link: "https://github.com/NoveLabs/openapi-dalle",
   },
 ];
 
